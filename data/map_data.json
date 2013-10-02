@@ -1,0 +1,32 @@
+{"labels" : [
+	{
+		"id": 34, 
+		"x": 338, 
+		"y": 159, 
+		"name": "These dots are a big deal", 
+		"isAutoLabel": true,
+		"color": "#61c6d9",
+		"length": 200,
+		"pointCoords" : [-50,80]
+	},
+	{
+		"id": 4, 
+		"x": 284, 
+		"y": 392, 
+		"name": "Unimportant dots", 
+		"isAutoLabel": true,
+		"color": "#976dff",
+		"length": 200,
+		"pointCoords" : [-37,-155]
+	},
+	{
+		"id": 12, 
+		"x": 140, 
+		"y": 199, 
+		"name": "I named this dot Larry", 
+		"isAutoLabel": true,
+		"color": "#9b90ad",
+		"length": 200,
+		"pointCoords" : [79,30]
+	}
+]}
