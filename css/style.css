@@ -4,27 +4,39 @@ html, body {
    	font-weight: 300;
 	padding: 0;
 	margin: 0;
-	color: #000;
-}
+	color: #212121;
+	
+	}
 .background {
 	fill:#666;
 }
+#pageWrap {
+	position: relative;
+	width: 960px;
+	height:800px;
+	margin: 20px auto;
+	background-color:#eff7fe;
+	background-image: 
+	radial-gradient(circle at 100% 150%, #eff7fe 24%, white 25%, white 28%, #eff7fe 29%, #eff7fe 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0    150%, #eff7fe 24%, white 25%, white 28%, #eff7fe 29%, #eff7fe 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50%  100%, white 10%, #eff7fe 11%, #eff7fe 23%, white 24%, white 30%, #eff7fe 31%, #eff7fe 43%, white 44%, white 50%, #eff7fe 51%, #eff7fe 63%, white 64%, white 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, white 5%, #eff7fe 6%, #eff7fe 15%, white 16%, white 20%, #eff7fe 21%, #eff7fe 30%, white 31%, white 35%, #eff7fe 36%, #eff7fe 45%, white 46%, white 49%, transparent 50%, transparent),
+	radial-gradient(circle at 0    50%, white 5%, #eff7fe 6%, #eff7fe 15%, white 16%, white 20%, #eff7fe 21%, #eff7fe 30%, white 31%, white 35%, #eff7fe 36%, #eff7fe 45%, white 46%, white 49%, transparent 50%, transparent);
+	background-size:20px 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.2);
+}
 #states {
-	fill: #f5f5f5;
 	stroke-width: 0.5px;
 	stroke: #888;
 }
-#counties {
-	fill: #e9e9e9;
-	stroke-width: 1px;
-	stroke: #f5f5f5;
-}
 .state {
 	transition: all 0.2s;
-	opacity: 0.8;
+	opacity: 0.9;
+	fill: #666;
 }
 .state:hover {
-	fill:#f0f0f0;
+	fill:#777;
 	cursor: pointer;
 }
 .county {
@@ -45,4 +57,25 @@ html, body {
 }
 .zoomBtnText {
 	pointer-events: none;
+}
+#gradients {
+	position: relative;
+	width: 920px;
+	height: 35px;
+	margin: 40px 20px 20px 20px;
+	border: 2px solid #ccc;
+	background: rgb(170,78,78); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(170,78,78,1) 5%, rgba(229,225,105,1) 21%, rgba(90,196,115,1) 40%, rgba(82,175,178,1) 59%, rgba(87,101,191,1) 77%, rgba(137,80,175,1) 94%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(5%,rgba(170,78,78,1)), color-stop(21%,rgba(229,225,105,1)), color-stop(40%,rgba(90,196,115,1)), color-stop(59%,rgba(82,175,178,1)), color-stop(77%,rgba(87,101,191,1)), color-stop(94%,rgba(137,80,175,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(170,78,78,1) 5%,rgba(229,225,105,1) 21%,rgba(90,196,115,1) 40%,rgba(82,175,178,1) 59%,rgba(87,101,191,1) 77%,rgba(137,80,175,1) 94%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(170,78,78,1) 5%,rgba(229,225,105,1) 21%,rgba(90,196,115,1) 40%,rgba(82,175,178,1) 59%,rgba(87,101,191,1) 77%,rgba(137,80,175,1) 94%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(170,78,78,1) 5%,rgba(229,225,105,1) 21%,rgba(90,196,115,1) 40%,rgba(82,175,178,1) 59%,rgba(87,101,191,1) 77%,rgba(137,80,175,1) 94%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(170,78,78,1) 5%,rgba(229,225,105,1) 21%,rgba(90,196,115,1) 40%,rgba(82,175,178,1) 59%,rgba(87,101,191,1) 77%,rgba(137,80,175,1) 94%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa4e4e', endColorstr='#8950af',GradientType=1 ); /* IE6-9 */
+	opacity: 0.9;
+}
+#info {
+	width: 920px;
+	height: 200px;
+	margin: 20px;
 }

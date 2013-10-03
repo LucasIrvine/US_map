@@ -65,8 +65,7 @@ var USmap = {
         .append('path')
         .attr('d', self.path)
         .attr({
-          'class' : 'state',
-          'opacity' : 0
+          'class' : 'state'
         })
         .on('click', function(d,i){
           self.stateClick(d);
