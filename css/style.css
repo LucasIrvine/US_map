@@ -15,16 +15,29 @@ html, body {
 	width: 960px;
 	height:800px;
 	margin: 20px auto;
-	background-color:#eff7fe;
+	background-color:#e5f0f9;
 	background-image: 
-	radial-gradient(circle at 100% 150%, #eff7fe 24%, white 25%, white 28%, #eff7fe 29%, #eff7fe 36%, white 36%, white 40%, transparent 40%, transparent),
-	radial-gradient(circle at 0    150%, #eff7fe 24%, white 25%, white 28%, #eff7fe 29%, #eff7fe 36%, white 36%, white 40%, transparent 40%, transparent),
-	radial-gradient(circle at 50%  100%, white 10%, #eff7fe 11%, #eff7fe 23%, white 24%, white 30%, #eff7fe 31%, #eff7fe 43%, white 44%, white 50%, #eff7fe 51%, #eff7fe 63%, white 64%, white 71%, transparent 71%, transparent),
-	radial-gradient(circle at 100% 50%, white 5%, #eff7fe 6%, #eff7fe 15%, white 16%, white 20%, #eff7fe 21%, #eff7fe 30%, white 31%, white 35%, #eff7fe 36%, #eff7fe 45%, white 46%, white 49%, transparent 50%, transparent),
-	radial-gradient(circle at 0    50%, white 5%, #eff7fe 6%, #eff7fe 15%, white 16%, white 20%, #eff7fe 21%, #eff7fe 30%, white 31%, white 35%, #eff7fe 36%, #eff7fe 45%, white 46%, white 49%, transparent 50%, transparent);
+	radial-gradient(circle at 100% 150%, #e5f0f9 24%, white 25%, white 28%, #e5f0f9 29%, #e5f0f9 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0    150%, #e5f0f9 24%, white 25%, white 28%, #e5f0f9 29%, #e5f0f9 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50%  100%, white 10%, #e5f0f9 11%, #e5f0f9 23%, white 24%, white 30%, #e5f0f9 31%, #e5f0f9 43%, white 44%, white 50%, #e5f0f9 51%, #e5f0f9 63%, white 64%, white 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, white 5%, #e5f0f9 6%, #e5f0f9 15%, white 16%, white 20%, #e5f0f9 21%, #e5f0f9 30%, white 31%, white 35%, #e5f0f9 36%, #e5f0f9 45%, white 46%, white 49%, transparent 50%, transparent),
+	radial-gradient(circle at 0    50%, white 5%, #e5f0f9 6%, #e5f0f9 15%, white 16%, white 20%, #e5f0f9 21%, #e5f0f9 30%, white 31%, white 35%, #e5f0f9 36%, #e5f0f9 45%, white 46%, white 49%, transparent 50%, transparent);
 	background-size:20px 10px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.2);
+}
+#mapWrap {
+	width: 960px;
+	height:500px;
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(170,78,78,0) 0%, rgba(204,150,150,0) 36%, rgba(255,255,255,0.85) 89%, rgba(255,255,255,1) 98%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(170,78,78,0)), color-stop(36%,rgba(204,150,150,0)), color-stop(89%,rgba(255,255,255,0.85)), color-stop(98%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(170,78,78,0) 0%,rgba(204,150,150,0) 36%,rgba(255,255,255,0.85) 89%,rgba(255,255,255,1) 98%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(170,78,78,0) 0%,rgba(204,150,150,0) 36%,rgba(255,255,255,0.85) 89%,rgba(255,255,255,1) 98%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(170,78,78,0) 0%,rgba(204,150,150,0) 36%,rgba(255,255,255,0.85) 89%,rgba(255,255,255,1) 98%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(170,78,78,0) 0%,rgba(204,150,150,0) 36%,rgba(255,255,255,0.85) 89%,rgba(255,255,255,1) 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aa4e4e', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 }
 #states {
 	stroke-width: 0.5px;
